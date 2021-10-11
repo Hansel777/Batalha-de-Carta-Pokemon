@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pokemón - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 08
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/04/Pok%C3%A9mon-Com-Fundo-Transparente.png" class="page-logo" alt="">
+    <div class="button-sortear">
+      <button onclick="sortearCarta()" class="button-sortear" id="btnSortear" style="background-color:#fff505"><strong>SORTEAR CARTA</strong></button>
+    </div>
+    <form id="form">
+      <h2><strong>Escolha o seu atributo</strong></h2>
+      <div class="wrapper">
+        <div class="imagens">
+          <div id="carta-jogador">
+            <img class="moldura" id="mouldura " src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div class="imagens">
+          <img src="https://i.ibb.co/G0V0dvT/pngegg-1.png" alt="versus" id="versus">
+        </div>
+
+        <div class="imagens">
+          <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+
+      </div>
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false" style="background-color:#fff505"><strong>JOGAR</strong></button>
+      <div disabled="false">
+        <h3 id="resultado"></h3>
+      </div>
+      <div class="button-reset">
+        <button class="reset" type="button" id="btnReset" onclick="Resetar()" disabled="false" style="background-color:#fff505"><strong>ESCOLHER OUTRAS CARTAS</strong></button>
+      </div>
+    </form>
+  </div>
+  <div class="container-link">
+    <div class="link">
+      <a href="https://codepen.io/hansel777/pen/porzbRx" target="_blank"> Link do codigo do projeto </a>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
